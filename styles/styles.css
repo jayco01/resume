@@ -1,0 +1,69 @@
+body {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 25px;
+    background-color: rgb(167, 210, 167);
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgb(2, 36, 4);
+    padding: 15px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.hero-img img {
+    width: 100px;
+    margin-right: 15px;
+    border-radius: 15px;
+}
+
+.contact {
+    display: flex;
+    gap: 5px;
+    list-style: none;
+    padding: 0;
+}
+
+.contact li::after {
+    content: " |";
+}
+
+.contact li:last-child::after {
+    content: "";
+}
+
+.education {
+    background-color:rgb(2, 36, 4);
+    padding: 15px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.work {
+    background-color:rgb(2, 36, 4);
+    padding: 15px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.skills {
+    background-color:rgb(2, 36, 4);
+    padding: 15px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+footer {
+    background-color:rgb(2, 36, 4);
+    padding: 15px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+h1, h2, h3, p, li, table, a {
+    color: rgb(214, 232, 214);
+}
