@@ -58,10 +58,14 @@ body {
 }
 
 footer {
-    background-color:rgb(2, 36, 4);
-    padding: 15px;
+    display:flex;
+    justify-content: end;
+    align-items: end;
     margin: 10px;
-    border-radius: 15px;
+}
+
+footer p {
+    color:rgb(2, 36, 4);
 }
 
 h1, h2, h3, p, li, table, a {
